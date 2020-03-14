@@ -1,0 +1,134 @@
+body {
+    background: #181617;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 95px;
+}
+
+.header__cat {
+    position: absolute;
+    background: url(../img/main_cat.png) no-repeat;
+    width: 1068px;
+    height: 712px;
+    right: 0;
+    bottom: 0;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.main__location {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A07B50;
+    margin: 0 0 16px;
+}
+
+.main__headtext {
+    font-family: 'Yeseva One', "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+    margin: 0;
+}
+
+.main__about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #A07B50;
+
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.main__btn {
+    padding: 18px 35px;
+    border: 0.5px solid #A07B50;
+    box-sizing: border-box;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main__wrapper {
+    position: relative;
+    top: 50%;
+}
+
+.social__buttons {
+    list-style: none;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.social__buttons li {
+    margin-top: 15px;
+
+}
+
+.social__buttons li.line{
+    height: 150px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.61);
+
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+
+.social-btn::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../img/Vk.png") no-repeat;
+    background-size: 100%;
+}
+
+.social-btn.tw::after {
+    background: url("../img/Twitter.png") no-repeat;
+    background-size: 100%;
+}
+
+.social-btn.fb::after {
+    background: url("../img/Facebook.png") no-repeat;
+    background-position: center;
+}
+
